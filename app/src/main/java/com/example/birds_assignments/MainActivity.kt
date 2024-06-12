@@ -1,12 +1,8 @@
 //package com.example.birds_assignments
-//
-//import android.app.Activity
-//import android.content.Intent
-//import android.os.Bundle
-//import android.widget.ImageView
-//import androidx.activity.enableEdgeToEdge
-//import androidx.appcompat.app.AppCompatActivity
-//import androidx.core.view.ViewCompat
+
+
+
+
 
 
 
@@ -37,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnNext.setOnClickListener {
+        binding.btnNext2.setOnClickListener {
             val intent = Intent(this, SecondBirdActivity::class.java)
             startActivity(intent)
         }
